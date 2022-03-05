@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Luxurious+Roman&family=Montserrat&family=Spline+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'EB Garamond', serif;
+}
+
+body{
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    z-index: 25;
+    background-color: #161515;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.navlinks{
+    margin-left: auto;
+}
+.navlinks li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 0px 10px 0px 10px;
+}
+.navlinks li {
+    text-decoration: none;
+    padding: 7px 0px 7px 0px;
+    border-radius: 15px;
+}
+.navlinks li:hover{
+    background-color: #f64d4d;
+}
+.navlinks li:after{
+    background-color: #f64d4d;
+}
+.contact{
+    margin-left: auto;
+}
+.contact a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0px 20px 0px 0px;
+    width: 10%;
+    padding: 8px 20px 8px 20px;
+    background-color: #f64d4d;
+    color: aliceblue;
+    border: 1px solid #f64d4d;;
+    border-radius: 10px;
+}
+.main{
+    position: relative;
+    width: 100vw;
+    top: 20vh;
+    left: 0;
+    height: 633px;
+    z-index: 10;
+}
+.main img{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: auto;
+}
+.main p{
+    display: inline;
+    font-size: 3em;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    color: black;
+}
+button{
+    cursor: pointer;
+}
+.main p strong{
+    color: #f64d4d;
+    text-align: left;
+}
+.main button{
+    font-size: 1em;
+    position: relative;
+    top: 30%;
+    left: 0;
+    width: 10%;
+    padding: 10px 20px 10px 20px;
+    background-color: #f64d4d;
+    color: aliceblue;
+    border: 1px solid #f64d4d;;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100vw;
+    top: 40vh;
+    left: 0;
+    height: auto;
+    margin-top: 50px;
+    z-index: 10;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 20%;
+    height: 30%;
+    border: 2px solid #f64d4d;
+    border-radius: 10px;
+}
+.navbar i{
+    color: #f64d4d;
+    font-size: 50px;
+    margin: 0px 0px 0px 10px;
+}
+.card i{
+    color: #f64d4d;
+    font-size: 50px;
+    margin: 20px 0px 10px 0px;
+}
+.maintext{
+    color:#f64d4d;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    display: inline;
+    margin: 10px 0px 30px 0px;
+}
+.subtext{
+    color:#f64d4d;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    display: inline;
+    margin: 10px 25px 15px 25px;
+}
+.card button{
+    font-size: 1em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 20px 10px 20px;
+    background-color: #f64d4d;
+    color: aliceblue;
+    border: 1px solid #f64d4d;;
+    border-radius: 10px;
+}
+.card img{
+    width: 45%;
+    margin-top: 10px;
+    border: 2px solid #f64d4d;
+    border-radius: 70px;
+}
+.icons{
+    font-size: 20px;
+    margin: 5px 10px 0px 0px;
+}
+.footer{
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    padding: 10vh 0px 0px 0px;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100vw;
+    height: 30vh;
+    position: relative;
+    top: 50vh;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(36, 32, 32);
+}
+.about,.links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sub-head{
+    margin: 0px 0px 0px 0px;
+}
+.sub-head a{
+    display: block;
+    text-decoration: none;
+    padding: 5px 0px 0px 0px;
+}
+
+.links li{
+    display: block;
+    margin: 10px 5px 0px 5px;
+}
+.main-head{
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#prod, #test{
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    color: #161515;
+}
+  
